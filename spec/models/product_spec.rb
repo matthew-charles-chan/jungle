@@ -2,14 +2,15 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
   testCat = Category.new(name: "test")
-  testProduct = {
+  
+  product_params = {
     name: "Anything",
     price: 2000,
     quantity: 10,
     category: testCat
   }
   subject {
-    described_class.new(testProduct)
+    described_class.new(product_params)
   }
   describe 'Validations' do
     it "is valid with valid attributes" do
