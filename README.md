@@ -2,6 +2,8 @@
 
 A mini e-commerce application built with Rails 4.2. Implemented new features from an existing code-base with unfamiliar language and frameworks.
 
+!["Screenshot of Products page"](https://github.com/matthew-charles-chan/jungle/blob/master/docs/Jungle_ScreenShot.png)
+
 ## Stack
 
 - Ruby
